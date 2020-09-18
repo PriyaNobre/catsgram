@@ -4,7 +4,7 @@ async function exibirPosts() {
 
   var sectionPosts = document.querySelector("section");
 
-  for (var i = 0; i < arrayDeFotos.length; i++) {
+  for (var i = 49; i < arrayDeFotos.length; i++) {
     sectionPosts.insertAdjacentHTML(
       "beforeend",
 
