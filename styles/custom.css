@@ -1,0 +1,28 @@
+body {
+  background: #f0f0f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo {
+  width: 200px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.conteudo {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.post {
+  border: 1px solid gray;
+  padding: 10px;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.post img {
+  width: 400px;
+}
